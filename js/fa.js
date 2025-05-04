@@ -26,7 +26,10 @@ addMdToPage(`
 
 Psykisk ohälsa är ett växande problem bland unga människor världen över, och indiska studenter är inget undantag. Studier under hög press, sociala förväntningar och framtidsoro skapar en vardag som för många känns tung.
 
-För att undersöka hur utbredd psykisk ohälsa är bland studenter i Indien genomförde vi en enkätundersökning. I denna deltog **${antalKvinnor} kvinnor** och **${antalMan} män**, i åldrar mellan **${s.min(data.map(x => x.Age))}** och **${s.max(data.map(x => x.Age))}**, från olika städer i Indien.
+För att undersöka hur utbredd psykisk ohälsa är bland studenter i Indien genomförde vi en enkätundersökning. I denna deltog 12 345 kvinnor och 15 538 män, i åldrar mellan 18 och 59, från olika städer i Indien.
+
+> 💡 På grund av det mycket stora antalet deltagare (över 27 000) använder vi inte Shapiro-Wilk-testet för normalfördelning, eftersom det tenderar att ge extremt låga p-värden även vid små avvikelser. Istället använder vi grafisk analys och icke-parametriska test vid behov.
+
 
 ### Vad visar resultaten?
 
